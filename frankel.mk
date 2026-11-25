@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+-include vendor/priv-certs/keys/keys.mk
+
 # Inherit device configuration
 DEVICE_CODENAME := frankel
 DEVICE_PATH := device/google/muzel
